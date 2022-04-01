@@ -123,7 +123,7 @@ email.addEventListener("keyup", () => {
 password.addEventListener("keyup", () => {
    if (password.value.length <= 7 ) {
       labelPassword.setAttribute("style", "color: red; transition: .1s")
-      labelPassword.innerHTML = "Password must be at least 8 characters long"
+      labelPassword.innerHTML = "Password must be at least 8 characters atleast & should have at least one uppercase, lowercase, numeric and special character"
       password.setAttribute("style", "border-color: red")
       validPassword = false
 
@@ -143,7 +143,7 @@ password.addEventListener("keyup", () => {
 confirmPassword.addEventListener("keyup", () => {
    if (confirmPassword.value != password.value ) {
       labelconfirmPassword.setAttribute("style", "color: red; transition: .1s")
-      labelconfirmPassword.innerHTML = "Password must be at least 8 characters long"
+      labelconfirmPassword.innerHTML = "Password must be at least 8 characters atleast & should have at least one uppercase, lowercase, numeric and special character"
       confirmPassword.setAttribute("style", "border-color: red")
       validconfirmPassword = false
 
