@@ -144,4 +144,27 @@ body {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+.linha {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+hr {
+    width: 20rem;
+}
 
+p {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+p a {
+    color: #372c52;
+    transition: .1s;
+}
+
+p a:hover {
+    color: #d7cdff;
+    transition: .2s;
+}
