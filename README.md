@@ -1,5 +1,10 @@
 # Login-App
 
+# DEMO CREDINTIALS
+
+ UserName-Anke SaiPrasad
+ Password-Anke SaiPrasad
+
 RegExp – It checks for the valid characters in the Email-Id (like, numbers, alphabets, few special characters.)
 
 It is allowing every special symbol in the email-id (like, !, #, $, %, ^, &, *) symbols in the Email-Id but not allowing the second @ symbol in ID.
