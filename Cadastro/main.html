@@ -10,6 +10,7 @@
 </head>
 <body onload='document.form1.text1.focus()'>
     
+    
     <div class="container">
 
         <div class="card">
@@ -59,6 +60,38 @@
 
       
     </div>
+    <p id = "GFG_UP" style = 
+            "font-size: 15px; font-weight: bold;"> 
+    </p>
+      
+    <p id = "GFG_DOWN" style = 
+        "font-size: 24px; font-weight: bold; color: green;"> 
+    </p> 
+    
+    <script> 
+        var up = document.getElementById('GFG_UP'); 
+        var down = document.getElementById('GFG_DOWN'); 
+        var email = 'ankesai8@gmail.com';
+          
+        up.innerHTML = "Click on the button to check the "
+                +   "validity of Email Id.<br>" + email; 
+          
+        function isEmail(email) {
+              
+            // Regular Expression (Accepts every special
+            // character along with @ symbol)
+            var regexp = /\S+@\S+\.\S+/;
+              
+            // Converting the email to lowercase
+            return regexp.test(String(email).toLowerCase());
+        }
+          
+        function GFG_Fun() { 
+            down.innerHTML = isEmail(email);
+        } 
+    </script> 
+    
+    
 </body>
 
 <script src="script.js"></script>
